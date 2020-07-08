@@ -1,0 +1,356 @@
+.sevrice__section {
+  width: 375px;
+  height: auto;
+  background-color: #233249;
+  background-image: url(../images/Logo-Symbol.png);
+  background-repeat: no-repeat;
+  background-position: -104px 135px;
+  padding-top: 90px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+    background-position: center;
+    background-position: 425px 176px;
+    padding-bottom: 84px;
+    padding-top: 114px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 1920px;
+    background-position: 668px 176px;
+  }
+}
+
+.wrapper {
+  width: 315px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1440px) {
+    width: 1170px;
+  }
+}
+
+.service__title {
+  padding: 0;
+  margin: 0;
+  height: 103px;
+  font-size: 29px;
+  letter-spacing: 2px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "ProximaNova-Xbold";
+  &::before {
+    content: "";
+    display: block;
+    background-image: url(../images/Title-Symbol.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 6.5%;
+    padding-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 1170px;
+    height: auto;
+    font-size: 48px;
+    line-height: 57px;
+    &::before {
+      padding-bottom: 47px;
+      background-size: 2.4%;
+    }
+  }
+}
+
+.service__block-holder {
+  margin-top: 47px;
+
+  @media screen and (min-width: 1440px) {
+    width: 976px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 107px;
+  }
+}
+
+.service__block {
+  width: 315px;
+  height: 218px;
+  //   padding-bottom: 37px;
+  @media screen and (min-width: 1440px) {
+    width: 416px;
+    height: 231px;
+    margin-bottom: 104px;
+  }
+}
+
+.service__block:last-of-type {
+  height: 194px;
+}
+
+.service__block:nth-of-type(1) {
+  margin-right: 120px;
+}
+
+.service__block:nth-of-type(3) {
+  margin-right: 120px;
+}
+
+.sevice__icons {
+  width: 36px;
+  height: 36px;
+
+  @media screen and (min-width: 1440px) {
+    width: 52px;
+    height: 52px;
+  }
+}
+
+.serices__block-title {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "ProximaNova-Bold";
+  margin: 0;
+  padding: 0;
+  padding-top: 12px;
+  padding-bottom: 28px;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 31px;
+    padding-top: 15px;
+  }
+}
+
+.services__block-text {
+  width: 318px;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 23px;
+  color: #8796ae;
+  font-weight: 300;
+  font-family: "ProximaNova-Light";
+  margin: 0;
+  padding: 0;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 18.8px;
+    width: 416px;
+    margin-top: 15.9px;
+  }
+}
+
+// --- LIGHT-PAPER SECTION ----
+
+.light-paper-section {
+  position: relative;
+  width: 375px;
+  height: 495px;
+  background: linear-gradient(
+    to bottom,
+    #233249 0%,
+    #233249 50%,
+    #ffff 50%,
+    #ffff 100%
+  );
+
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+    height: 475px;
+    background: linear-gradient(
+      to bottom,
+      #233249 0%,
+      #233249 33%,
+      #ffff 33%,
+      #ffff 100%
+    );
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 1920px;
+  }
+}
+
+.light-paper__blue-holder {
+  height: 409px;
+  background-color: #1e5fcc;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -70px;
+    right: 0px;
+    display: block;
+    width: 329px;
+    height: 451px;
+    background-image: url(../images/Broshure.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 199px;
+    left: -1px;
+    width: 400px;
+    height: 400px;
+    display: block;
+    background-image: url(../images/Symbol-Docs.png);
+    background-size: 201px;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 1305px;
+    height: 311px;
+    &::before {
+      top: -96px;
+      right: -24px;
+      width: 718px;
+      height: 645px;
+      background-size: 745px;
+    }
+
+    &:after {
+      top: 73px;
+      left: 135px;
+      width: 400px;
+      height: 400px;
+      background-size: 244px;
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 1544px;
+    height: 313px;
+
+    &::before {
+      top: -96px;
+      right: -21px;
+      width: 713px;
+      height: 645px;
+      background-size: 746px;
+    }
+
+    &:after {
+      left: 374px;
+    }
+  }
+}
+
+.light-paper__text-holder {
+  margin-left: 29px;
+
+  @media screen and (min-width: 1440px) {
+    width: 479px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 135px;
+    padding-top: 70px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    padding-top: 69px;
+    margin-left: 375px;
+  }
+}
+
+.light-paper__title {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "ProximaNova-Bold";
+  padding-top: 192px;
+  padding-bottom: 18px;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 33px;
+    padding-top: 1px;
+    letter-spacing: 1px;
+  }
+}
+
+.light-paper__text {
+  width: 187px;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "ProximaNova-Light";
+
+  @media screen and (min-width: 1440px) {
+    font-size: 25px;
+    padding-top: 11px;
+    line-height: 34px;
+    margin-left: 92px;
+  }
+}
+
+.light-paper__button {
+  position: absolute;
+  bottom: 58px;
+  left: 49px;
+  width: 280px;
+  height: 54px;
+  display: block;
+  background-color: #fccf18;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #233148;
+  font-weight: bold;
+  font-family: "ProximaNova-Bold";
+  text-align: center;
+  &:hover {
+    background-color: rgb(250, 82, 82);
+    color: #ffffff;
+    transition: 200ms linear;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 388px;
+    height: 75px;
+    font-size: 23px;
+    bottom: 125px;
+    left: 233px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    left: 474px;
+  }
+}
+
+.footer {
+  width: 375px;
+  height: 200px;
+  padding-bottom: 89px;
+  margin-top: 5px;
+
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 1920px;
+  }
+}
+
+.service__title:last-child {
+  color: #233148;
+  height: 200px;
+
+  @media screen and (min-width: 1440px) {
+    width: 523px;
+
+    &::before {
+      padding-bottom: 49px;
+      background-size: 5.4%;
+    }
+  }
+}
